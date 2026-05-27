@@ -138,12 +138,12 @@ To verify the upload, remove the local copy of the image and pull it fresh from 
 
 ```bash
 # Remove local image
-docker rmi <your-username>/flask-web-app:v1.0
+docker rmi education1729/flask-web-app:latest
 
 # Pull from registry
-docker pull <your-username>/flask-web-app:v1.0
+docker pull education1729/flask-web-app:latest
 
 # Run the pulled image
-docker run -d -p 5000:5000 <your-username>/flask-web-app:v1.0
+docker run -d -p 5000:5000 education1729/flask-web-app:latest
 
 ```
